@@ -1,0 +1,13 @@
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1:1", "", "models", "EARoot/EA1/EA2/EA4/EA2/EA1/EA215.html", "175.png", "113", "0", "", "Logical diagram0","{1042F305-A9DF-4ffd-96CC-BB7752B56350}");
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1:2", "", ": DetalleCaja", "EARoot/EA1/EA2/EA4/EA2/EA1/EA218.html", "25.png", "E317", "0", "", "Object0","{741049CB-BEEA-4fe7-8884-BF1AC74B782E}");
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1:3", "", "Balance", "EARoot/EA1/EA2/EA4/EA2/EA1/EA221.html", "5.png", "E306", "0", "", "Class0","{18896D30-1629-49bc-A5CE-F38F36B4062A}");
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1:4", "", "Caja_egreso", "EARoot/EA1/EA2/EA4/EA2/EA1/EA222.html", "5.png", "E312", "0", "", "Class0","{E10F9679-8A41-467f-A068-DD8253E55874}");
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1:5", "", "Cargo", "EARoot/EA1/EA2/EA4/EA2/EA1/EA223.html", "5.png", "E309", "0", "", "Class0","{74ECEACB-3121-468c-9910-80F7BFB14020}");
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1:6", "", "«enumeration» Cargo", "EARoot/EA1/EA2/EA4/EA2/EA1/EA224.html", "5.png", "E307", "0", "", "Class0","{5808F010-A0E6-4d9b-8F6B-B25A7CFE025B}");
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1:7", "", "Cliente", "EARoot/EA1/EA2/EA4/EA2/EA1/EA226.html", "5.png", "E310", "0", "", "Class0","{CEA7AFBC-BCBA-46a1-A216-581800421F32}");
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1:8", "", "Comprobante", "EARoot/EA1/EA2/EA4/EA2/EA1/EA227.html", "5.png", "E314", "0", "", "Class0","{E7DC66FF-46F4-4628-9C88-9CB3CFD30A0B}");
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1:9", "", "«enumeration» Comprobante", "EARoot/EA1/EA2/EA4/EA2/EA1/EA228.html", "5.png", "E315", "0", "", "Class0","{F9C3D55F-F2D4-434b-97B6-7AC6AC53947D}");
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1:10", "", "DetalleCaja", "EARoot/EA1/EA2/EA4/EA2/EA1/EA229.html", "5.png", "E308", "0", "", "Class0","{6431CD57-B783-450d-A766-91F07D95EEE2}");
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1:11", "", "report_diario", "EARoot/EA1/EA2/EA4/EA2/EA1/EA230.html", "5.png", "E311", "0", "", "Class0","{DC2AC6E2-6D2E-44dc-A45D-29DA4E80829A}");
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1.1", "1", "Balance", "EARoot/EA1/EA2/EA4/EA2/EA1/EA1/EA233.html", "4.png", "", "", "{4D886230-3E3E-45e5-8035-7C1CC12531A3}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.4.2.1.2", "1", "«enumeration» Cargo", "EARoot/EA1/EA2/EA4/EA2/EA1/EA2/EA236.html", "4.png", "", "", "{D366ED00-441E-4210-B4B4-45BAD8093790}", "Package");

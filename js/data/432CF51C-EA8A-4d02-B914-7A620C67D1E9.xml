@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.2.1.1.2.3:1", "", "registroasistenciaF", "EARoot/EA1/EA2/EA1/EA1/EA2/EA3/EA58.html", "175.png", "97", "0", "", "Logical diagram0","{05137A8B-9C41-42a9-A350-4EA4064CBBCD}");
+tocTab[tocTab.length] = new Array("0.1.2.1.1.2.3:2", "", "RegistroAsistenciaForm", "EARoot/EA1/EA2/EA1/EA1/EA2/EA3/EA61.html", "5.png", "E262", "0", "", "Class0","{83F7556C-144F-4be4-BD51-DB73323D8D4E}");
