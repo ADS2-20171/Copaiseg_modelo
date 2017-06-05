@@ -1,4 +1,5 @@
-tocTab[tocTab.length] = new Array("0.1.2.4.2:1", "", "Diagrama de clases detallado", "EARoot/EA1/EA2/EA4/EA2/EA208.html", "175.png", "112", "0", "", "Logical diagram0","{779D05B6-084C-4338-9170-22E269C89B7A}");
-tocTab[tocTab.length] = new Array("0.1.2.4.2:2", "", "ClaseDeSoftware1", "EARoot/EA1/EA2/EA4/EA2/EA211.html", "5.png", "E302", "0", "", "Class0","{C4150113-6AC7-4c86-AEDB-E3048EB1C4F4}");
-tocTab[tocTab.length] = new Array("0.1.2.4.2.1", "1", "models", "EARoot/EA1/EA2/EA4/EA2/EA1/EA217.html", "4.png", "", "", "{DA175A56-8D7C-4617-9218-8034E87CC7D8}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2.4.2.2", "1", "views", "EARoot/EA1/EA2/EA4/EA2/EA2/EA239.html", "4.png", "", "", "{1486B0F0-6321-4889-8678-45DA9B671E68}", "Package");
+tocTab[tocTab.length] = new Array("1.2.4.2:1", "", "Diagrama de clases detallado", "EARoot/EA1/EA2/EA4/EA2/EA198.html", "175.png", "125", "0", "", "Logical diagram0","{779D05B6-084C-4338-9170-22E269C89B7A}");
+tocTab[tocTab.length] = new Array("1.2.4.2:2", "", "ClaseDeSoftware1", "EARoot/EA1/EA2/EA4/EA2/EA201.html", "5.png", "332", "0", "", "Class0","{C4150113-6AC7-4c86-AEDB-E3048EB1C4F4}");
+tocTab[tocTab.length] = new Array("1.2.4.2.1", "1", "Forms", "EARoot/EA1/EA2/EA4/EA2/EA200.html", "4.png", "", "", "{01B2E734-1319-4c60-BFCF-8D90578977F4}", "Package");
+tocTab[tocTab.length] = new Array("1.2.4.2.2", "1", "models", "EARoot/EA1/EA2/EA4/EA2/EA202.html", "4.png", "", "", "{DA175A56-8D7C-4617-9218-8034E87CC7D8}", "Package");
+tocTab[tocTab.length] = new Array("1.2.4.2.3", "1", "views", "EARoot/EA1/EA2/EA4/EA2/EA204.html", "4.png", "", "", "{1486B0F0-6321-4889-8678-45DA9B671E68}", "Package");

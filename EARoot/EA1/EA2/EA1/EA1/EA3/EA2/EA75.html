@@ -5,28 +5,11 @@
 <title>pagopersonal.py</title>
 <link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
-function initPage(src) {	
+function initPage(src) {
 	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
 		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
 	else
 		parent.initPage(src);
-}
-
-function nameClassifier(name, separator)
-{
-  var str = name;
-  var classifierName;
-  var node = document.getElementById('name_classifier');
-  if(node != null)
-  {
-    classifierName = node.innerHTML;
-  }
-  if(classifierName != "")
-  {
-   str += separator + classifierName;
-  }
-  
-  return str;
 }
 </script>
 </head>
@@ -36,14 +19,15 @@ function nameClassifier(name, separator)
 <img src="EA76.png" usemap="#EA76" border="0" />
 
 <MAP NAME="EA76">
-<area shape="rect" coords="112,10,245,80" href="EA79.html" target="_self">
-<area shape="rect" coords="10,294,144,364" href="EA78.html" target="_self">
-<area shape="rect" coords="459,24,579,94" href="EA80.html" target="_self">
-<area shape="rect" coords="533,356,669,426" href="EA81.html" target="_self">
-<area shape="rect" coords="250,178,421,266" href="../../EA1/EA39.html" target="_self">
+<area shape="rect" coords="213,410,315,480" href="../../EA2/EA1/EA57.html">
+<area shape="rect" coords="112,10,582,89" href="EA78.html">
+<area shape="rect" coords="10,294,498,373" href="EA77.html">
+<area shape="rect" coords="588,96,1043,175" href="EA79.html">
+<area shape="rect" coords="573,375,1046,454" href="EA80.html">
+<area shape="rect" coords="250,178,421,266" href="../../EA1/EA45.html">
 </MAP>
 
-	<div class="ObjectTitle">pagopersonal.py : Class diagram</div>
+	<div class="ObjectTitle">pagopersonal.py : lógico diagram</div>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -51,7 +35,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
-			<td width="85%" class="ObjectDetailsValue">30/05/2017 03:23:14</td>
+			<td width="85%" class="ObjectDetailsValue">5/06/2017 06:53:56</td>
 		</tr>
 		<tr style="padding-top: 10px;">
 			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>

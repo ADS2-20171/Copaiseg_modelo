@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.1.2:1", "", "apps", "EARoot/EA1/EA2/EA12.html", "175.png", "36", "0", "", "Logical diagram0","{3E250F20-99FF-44f2-863D-2D213D16DBBE}");
-tocTab[tocTab.length] = new Array("0.1.2.1", "1", "pagopersonal", "EARoot/EA1/EA2/EA1/EA21.html", "4.png", "", "", "{C63741DD-ADCD-4e1b-B354-918C6344319C}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2.2", "1", "acopio", "EARoot/EA1/EA2/EA2/EA94.html", "4.png", "", "", "{A86CA2B8-7572-4585-8E66-3C6CCAADC352}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2.3", "1", "almacen", "EARoot/EA1/EA2/EA3/EA147.html", "4.png", "", "", "{2680E0F2-6EC6-4954-8940-C1379AEB64AA}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2.4", "1", "caja", "EARoot/EA1/EA2/EA4/EA183.html", "4.png", "", "", "{B4C15036-E7F3-45da-AA13-0F2FC2BA3A07}", "Package");
+tocTab[tocTab.length] = new Array("1.2:1", "", "apps", "EARoot/EA1/EA2/EA21.html", "175.png", "36", "0", "", "Logical diagram0","{3E250F20-99FF-44f2-863D-2D213D16DBBE}");
+tocTab[tocTab.length] = new Array("1.2.1", "1", "pagopersonal", "EARoot/EA1/EA2/EA23.html", "4.png", "", "", "{C63741DD-ADCD-4e1b-B354-918C6344319C}", "Package");
+tocTab[tocTab.length] = new Array("1.2.2", "1", "acopio", "EARoot/EA1/EA2/EA24.html", "4.png", "", "", "{A86CA2B8-7572-4585-8E66-3C6CCAADC352}", "Package");
+tocTab[tocTab.length] = new Array("1.2.3", "1", "almacen", "EARoot/EA1/EA2/EA25.html", "4.png", "", "", "{2680E0F2-6EC6-4954-8940-C1379AEB64AA}", "Package");
+tocTab[tocTab.length] = new Array("1.2.4", "1", "caja", "EARoot/EA1/EA2/EA26.html", "4.png", "", "", "{B4C15036-E7F3-45da-AA13-0F2FC2BA3A07}", "Package");
