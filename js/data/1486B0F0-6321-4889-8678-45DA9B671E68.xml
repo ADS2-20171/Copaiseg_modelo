@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("1.2.4.2.3:1", "", "views", "EARoot/EA1/EA2/EA4/EA2/EA3/EA230.html", "175.png", "127", "0", "", "Logical diagram0","{5064E075-5CCF-47a5-8A09-C2909A8E1309}");
-tocTab[tocTab.length] = new Array("1.2.4.2.3.1", "1", "balance", "EARoot/EA1/EA2/EA4/EA2/EA3/EA232.html", "4.png", "", "", "{5BEE4D07-F496-4dc3-83EE-99670DD89BC7}", "Package");
-tocTab[tocTab.length] = new Array("1.2.4.2.3.2", "1", "caja_egreso.py", "EARoot/EA1/EA2/EA4/EA2/EA3/EA233.html", "4.png", "", "", "{6EFFF7B4-722F-4bfe-A965-C44897CD3E4A}", "Package");
-tocTab[tocTab.length] = new Array("1.2.4.2.3.3", "1", "cargo.py", "EARoot/EA1/EA2/EA4/EA2/EA3/EA234.html", "4.png", "", "", "{934308AA-24A3-46a6-B5C2-C4AB2B73E221}", "Package");
+tocTab[tocTab.length] = new Array("1.2.4.2.3:1", "", "views", "EARoot/EA1/EA2/EA4/EA2/EA3/EA189.html", "175.png", "127", "0", "", "Logical diagram0","{5064E075-5CCF-47a5-8A09-C2909A8E1309}");
+tocTab[tocTab.length] = new Array("1.2.4.2.3.1", "1", "balance", "EARoot/EA1/EA2/EA4/EA2/EA3/EA191.html", "4.png", "", "", "{5BEE4D07-F496-4dc3-83EE-99670DD89BC7}", "Package");
+tocTab[tocTab.length] = new Array("1.2.4.2.3.2", "1", "caja_egreso.py", "EARoot/EA1/EA2/EA4/EA2/EA3/EA192.html", "4.png", "", "", "{6EFFF7B4-722F-4bfe-A965-C44897CD3E4A}", "Package");
+tocTab[tocTab.length] = new Array("1.2.4.2.3.3", "1", "cargo.py", "EARoot/EA1/EA2/EA4/EA2/EA3/EA193.html", "4.png", "", "", "{934308AA-24A3-46a6-B5C2-C4AB2B73E221}", "Package");

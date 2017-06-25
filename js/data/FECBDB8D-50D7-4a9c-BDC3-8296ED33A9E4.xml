@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("1.2.2.2.3:1", "", "Views", "EARoot/EA1/EA2/EA2/EA2/EA3/EA119.html", "176.png", "147", "0", "", "Package diagram0","{57323490-3CDB-4cc7-9033-7AFC6E6F4BDA}");
-tocTab[tocTab.length] = new Array("1.2.2.2.3.1", "1", "acopio/views.py", "EARoot/EA1/EA2/EA2/EA2/EA3/EA121.html", "4.png", "", "", "{14C6D253-A6F6-4f10-BFFE-8FCB501AFEFE}", "Package");
+tocTab[tocTab.length] = new Array("1.2.2.2.3:1", "", "Views", "EARoot/EA1/EA2/EA2/EA2/EA3/EA78.html", "176.png", "147", "0", "", "Package diagram0","{57323490-3CDB-4cc7-9033-7AFC6E6F4BDA}");
+tocTab[tocTab.length] = new Array("1.2.2.2.3.1", "1", "acopio/views.py", "EARoot/EA1/EA2/EA2/EA2/EA3/EA80.html", "4.png", "", "", "{14C6D253-A6F6-4f10-BFFE-8FCB501AFEFE}", "Package");

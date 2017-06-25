@@ -1,7 +1,8 @@
-tocTab[tocTab.length] = new Array("1.2.2.2.2:1", "", "Acopio Entity", "EARoot/EA1/EA2/EA2/EA2/EA2/EA110.html", "175.png", "146", "0", "", "Logical diagram0","{BE83AD65-9D49-4181-99C6-7D68FDCC47B1}");
-tocTab[tocTab.length] = new Array("1.2.2.2.2:2", "", " PRODUCTO_TIPO_CHOICE", "EARoot/EA1/EA2/EA2/EA2/EA2/EA113.html", "5.png", "418", "0", "", "Class0","{9B803ECF-B4BB-4b63-90D1-BB71B1E371DF}");
-tocTab[tocTab.length] = new Array("1.2.2.2.2:3", "", "Acopio", "EARoot/EA1/EA2/EA2/EA2/EA2/EA114.html", "5.png", "417", "0", "", "Class0","{81A3EEE6-FCF2-4b5d-B960-0816A5DCF72B}");
-tocTab[tocTab.length] = new Array("1.2.2.2.2:4", "", "Acopio_Detalle", "EARoot/EA1/EA2/EA2/EA2/EA2/EA115.html", "5.png", "415", "0", "", "Class0","{2A0ABEA0-65A4-4a82-B956-C1B49574649A}");
-tocTab[tocTab.length] = new Array("1.2.2.2.2:5", "", "Parcela", "EARoot/EA1/EA2/EA2/EA2/EA2/EA116.html", "5.png", "416", "0", "", "Class0","{3321C60E-9BF7-4636-B6F8-129F782EA49E}");
-tocTab[tocTab.length] = new Array("1.2.2.2.2:6", "", "Persona", "EARoot/EA1/EA2/EA2/EA2/EA2/EA117.html", "5.png", "420", "0", "", "Class0","{FE9D694E-474B-4afd-BBED-371F86820743}");
-tocTab[tocTab.length] = new Array("1.2.2.2.2:7", "", "Socio", "EARoot/EA1/EA2/EA2/EA2/EA2/EA118.html", "5.png", "414", "0", "", "Class0","{1D37AE72-5FB1-414d-A37D-0158E598855B}");
+tocTab[tocTab.length] = new Array("1.2.2.2.2:1", "", "Acopio Entity", "EARoot/EA1/EA2/EA2/EA2/EA2/EA68.html", "175.png", "146", "0", "", "Logical diagram0","{BE83AD65-9D49-4181-99C6-7D68FDCC47B1}");
+tocTab[tocTab.length] = new Array("1.2.2.2.2:2", "", ": Persona", "EARoot/EA1/EA2/EA2/EA2/EA2/EA70.html", "25.png", "441", "0", "", "Object0","{91B8AC2C-6A61-4216-9F46-1DB2B1D04D28}");
+tocTab[tocTab.length] = new Array("1.2.2.2.2:3", "", "«enumeration»  PRODUCTO_TIPO_CHOICES", "EARoot/EA1/EA2/EA2/EA2/EA2/EA72.html", "5.png", "418", "0", "", "Class0","{9B803ECF-B4BB-4b63-90D1-BB71B1E371DF}");
+tocTab[tocTab.length] = new Array("1.2.2.2.2:4", "", "Acopio", "EARoot/EA1/EA2/EA2/EA2/EA2/EA73.html", "5.png", "417", "0", "", "Class0","{81A3EEE6-FCF2-4b5d-B960-0816A5DCF72B}");
+tocTab[tocTab.length] = new Array("1.2.2.2.2:5", "", "Acopio_Detalle", "EARoot/EA1/EA2/EA2/EA2/EA2/EA74.html", "5.png", "415", "0", "", "Class0","{2A0ABEA0-65A4-4a82-B956-C1B49574649A}");
+tocTab[tocTab.length] = new Array("1.2.2.2.2:6", "", "Parcela", "EARoot/EA1/EA2/EA2/EA2/EA2/EA75.html", "5.png", "416", "0", "", "Class0","{3321C60E-9BF7-4636-B6F8-129F782EA49E}");
+tocTab[tocTab.length] = new Array("1.2.2.2.2:7", "", "Persona", "EARoot/EA1/EA2/EA2/EA2/EA2/EA76.html", "5.png", "420", "0", "", "Class0","{FE9D694E-474B-4afd-BBED-371F86820743}");
+tocTab[tocTab.length] = new Array("1.2.2.2.2:8", "", "Socio", "EARoot/EA1/EA2/EA2/EA2/EA2/EA77.html", "5.png", "414", "0", "", "Class0","{1D37AE72-5FB1-414d-A37D-0158E598855B}");
