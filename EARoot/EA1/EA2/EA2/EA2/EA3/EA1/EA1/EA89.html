@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>acopio.py::AcopioListView</title>
+<title>AcopioCreateView</title>
 <link href="../../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {
@@ -16,15 +16,15 @@ function initPage(src) {
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">AcopioListView  : public   clase</span>
+	<span class="ObjectTitle">AcopioCreateView  : public   clase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">30/05/2017 06:52:29</td>
+			<td width="85%" class="ObjectDetailsValue">30/05/2017 06:40:26</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">25/06/2017 17:16:56</td>
+			<td class="ObjectDetailsValue">30/05/2017 06:47:14</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -57,7 +57,7 @@ function initPage(src) {
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{C7D21081-D699-4722-B893-203A2A1110B4}</td>
+			<td class="ObjectDetailsValue">{EFE56736-4343-41d0-A9BE-ABE7AD3151EB}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
@@ -78,21 +78,165 @@ function initPage(src) {
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>public</i><br />
-					<strong>def get_context_data</strong>():context
+					<strong>def form_valid</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{B9DAABBA-7420-4828-8A2D-B9824704E093}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{B9DAABBA-7420-4828-8A2D-B9824704E093}" border="0" />self: form</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{B9DAABBA-7420-4828-8A2D-B9824704E093}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B9DAABBA-7420-4828-8A2D-B9824704E093}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{B9DAABBA-7420-4828-8A2D-B9824704E093}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B9DAABBA-7420-4828-8A2D-B9824704E093}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):super(AcopioCreateView, self).form_valid(form)
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations140" onclick="parent.toggleDiv('detailsDIVOperations140','DetailsImageOperations140')" />Details:
-						<div id="detailsDIVOperations140" class="DetailsDiv" >
-					<i>Sequential  </i><span style= "margin-left: .5cm;">Validate No permitir ducplicidad de Nombre </span>
+					<div class="DetailsDivParent"><img src="../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations138" onclick="parent.toggleDiv('detailsDIVOperations138','DetailsImageOperations138')" />Details:
+						<div id="detailsDIVOperations138" class="DetailsDiv" >
+					<i>Sequential  </i><span style= "margin-left: .5cm;">Validate Para crear </span>
 <table>
 	<tr>
 		<td>
 			<span style= "margin-left: 1.5cm;"> <span>
 		</td>
 		<td>
-			&nbsp;
+			Tiene que tener el registro de los socios y sus respectivas parcelas...
+		</td>
+	</td>
+</table> 
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+											
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>public</i><br />
+					<strong>def buscarSocio</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{C10E65C7-0D4D-48cc-8488-969CDB91A1BD}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{C10E65C7-0D4D-48cc-8488-969CDB91A1BD}" border="0" />self: request</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{C10E65C7-0D4D-48cc-8488-969CDB91A1BD}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C10E65C7-0D4D-48cc-8488-969CDB91A1BD}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{C10E65C7-0D4D-48cc-8488-969CDB91A1BD}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C10E65C7-0D4D-48cc-8488-969CDB91A1BD}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):HttpResponse(data, content_type='application/json')
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations139" onclick="parent.toggleDiv('detailsDIVOperations139','DetailsImageOperations139')" />Details:
+						<div id="detailsDIVOperations139" class="DetailsDiv" >
+					<i>Sequential  </i><span style= "margin-left: .5cm;">Validate Cargar l </span>
+<table>
+	<tr>
+		<td>
+			<span style= "margin-left: 1.5cm;"> <span>
+		</td>
+		<td>
+			Al buscar tiene que seleccionar 
+		</td>
+	</td>
+</table> <span style= "margin-left: .5cm;">Functional Cargar los datos a un conbobox parcela... </span>
+<table>
+	<tr>
+		<td>
+			<span style= "margin-left: 1.5cm;"> <span>
+		</td>
+		<td>
+			Al momento de buscar tiene que cargar las parcelas que solo tiene el socio en el conmbo box.
+		</td>
+	</td>
+</table> <span style= "margin-left: .5cm;">Functional Buscador General </span>
+<table>
+	<tr>
+		<td>
+			<span style= "margin-left: 1.5cm;"> <span>
+		</td>
+		<td>
+			El buscador solo buscara por el nombre del Socio, Apellido y o codigo de socio
+		</td>
+	</td>
+</table> 
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+											
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>public</i><br />
+					<strong>def buscarParcela</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{2B6A3F98-B182-4350-B63C-8CF9A6A2F0A3}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{2B6A3F98-B182-4350-B63C-8CF9A6A2F0A3}" border="0" />self: request</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{2B6A3F98-B182-4350-B63C-8CF9A6A2F0A3}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2B6A3F98-B182-4350-B63C-8CF9A6A2F0A3}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{2B6A3F98-B182-4350-B63C-8CF9A6A2F0A3}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2B6A3F98-B182-4350-B63C-8CF9A6A2F0A3}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):HttpResponse(data, content_type='application/json')
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations140" onclick="parent.toggleDiv('detailsDIVOperations140','DetailsImageOperations140')" />Details:
+						<div id="detailsDIVOperations140" class="DetailsDiv" >
+					<i>Sequential  </i><span style= "margin-left: .5cm;">Functional Buscar Parcela </span>
+<table>
+	<tr>
+		<td>
+			<span style= "margin-left: 1.5cm;"> <span>
+		</td>
+		<td>
+			Cuando tenga varios parcelas, le sera mas facil buscar en el formulario. 
 		</td>
 	</td>
 </table> 
@@ -118,7 +262,7 @@ function initPage(src) {
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../../EA2/EA73.html">Acopio</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA1/EA1/EA65.html">AcopioForm</a></td>
 					<td width="15%" class="TableRow" valign="top">Class</td>
 					<td width="15%" class="TableRow" valign="top">Dependencia</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>

@@ -1,1 +1,13 @@
-tocTab[tocTab.length] = new Array("1.2.3.1:1", "", "Interfaz de usuario", "EARoot/EA1/EA2/EA3/EA1/EA106.html", "188.png", "136", "0", "", "Custom diagram0","{73B1E45B-E725-4934-9F62-1439DC52CE65}");
+tocTab[tocTab.length] = new Array("1.2.5.1:1", "", "Interfaz de categoria", "EARoot/EA1/EA2/EA5/EA1/EA238.html", "188.png", "197", "0", "", "Custom diagram0","{0A7CCA6B-336E-469c-B9AA-7308B982D71B}");
+tocTab[tocTab.length] = new Array("1.2.5.1:2", "", "Interfaz de categoria L", "EARoot/EA1/EA2/EA5/EA1/EA240.html", "188.png", "196", "0", "", "Custom diagram0","{E6FBFB7F-9C77-46ca-AEEF-65D594EC462D}");
+tocTab[tocTab.length] = new Array("1.2.5.1:3", "", "Interfaz de listaA", "EARoot/EA1/EA2/EA5/EA1/EA242.html", "188.png", "269", "0", "", "Custom diagram0","{240701A3-1164-4061-8DBA-209ED603B884}");
+tocTab[tocTab.length] = new Array("1.2.5.1:4", "", "Interfaz de producto", "EARoot/EA1/EA2/EA5/EA1/EA244.html", "188.png", "195", "0", "", "Custom diagram0","{EDA378EE-E732-49fd-B014-11B787CF5BF4}");
+tocTab[tocTab.length] = new Array("1.2.5.1:5", "", "Interfaz de producto-L", "EARoot/EA1/EA2/EA5/EA1/EA246.html", "188.png", "89", "0", "", "Custom diagram0","{73B1E45B-E725-4934-9F62-1439DC52CE65}");
+tocTab[tocTab.length] = new Array("1.2.5.1:6", "", "Interfaz de venta", "EARoot/EA1/EA2/EA5/EA1/EA248.html", "188.png", "295", "0", "", "Custom diagram0","{A2D921AA-B2FD-4fa0-A167-CA929420EBBD}");
+tocTab[tocTab.length] = new Array("1.2.5.1:7", "", "Interfaz deventa", "EARoot/EA1/EA2/EA5/EA1/EA250.html", "188.png", "268", "0", "", "Custom diagram0","{AF15DF35-5687-4050-BE8D-731DA7C38990}");
+tocTab[tocTab.length] = new Array("1.2.5.1:8", "", "Screen1", "EARoot/EA1/EA2/EA5/EA1/EA258.html", "11.png", "801", "0", "", "Screen0","{0CC5236F-8101-49ef-B33B-2801A8F17806}");
+tocTab[tocTab.length] = new Array("1.2.5.1:9", "", "Screen2", "EARoot/EA1/EA2/EA5/EA1/EA259.html", "11.png", "802", "0", "", "Screen0","{DAB3625B-E061-42aa-BD63-D493580627EC}");
+tocTab[tocTab.length] = new Array("1.2.5.1:10", "", "Screen3", "EARoot/EA1/EA2/EA5/EA1/EA260.html", "11.png", "803", "0", "", "Screen0","{8D762CA8-96DC-4c97-A685-A37CBB9033D3}");
+tocTab[tocTab.length] = new Array("1.2.5.1:11", "", "Screen4", "EARoot/EA1/EA2/EA5/EA1/EA261.html", "11.png", "804", "0", "", "Screen0","{DCB1F952-4340-437f-A9F4-FE06B7B4013E}");
+tocTab[tocTab.length] = new Array("1.2.5.1:12", "", "Screen5", "EARoot/EA1/EA2/EA5/EA1/EA262.html", "11.png", "805", "0", "", "Screen0","{59533DFD-4803-441b-8462-E77758B90B39}");
+tocTab[tocTab.length] = new Array("1.2.5.1:13", "", "Screen6", "EARoot/EA1/EA2/EA5/EA1/EA263.html", "11.png", "806", "0", "", "Screen0","{D9A013FC-8C7B-4df0-9067-F282646413E7}");

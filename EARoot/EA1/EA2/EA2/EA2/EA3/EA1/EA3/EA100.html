@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>socio.py::SocioCreateView</title>
+<title>socio.py::SocioDeleteView</title>
 <link href="../../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {
@@ -16,7 +16,7 @@ function initPage(src) {
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">SocioCreateView  : public   clase</span>
+	<span class="ObjectTitle">SocioDeleteView  : public   clase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -57,11 +57,11 @@ function initPage(src) {
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{F2C4A8E1-7DD6-48b7-BF1B-84468F2C1864}</td>
+			<td class="ObjectDetailsValue">{393ECC45-097E-4ff1-A931-B853FAE37974}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA98.html">socio.py</a></td>
+			<td class="ObjectDetailsValue"><a href="EA97.html">socio.py</a></td>
 		</tr>
 	</table>
 	
@@ -78,14 +78,74 @@ function initPage(src) {
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>public</i><br />
-					<strong>def get_context_data</strong>():context
+					<strong>def delete</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{2DA9039B-9AEC-4a67-BD32-92EC3380866B}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{2DA9039B-9AEC-4a67-BD32-92EC3380866B}" border="0" />self: request</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{2DA9039B-9AEC-4a67-BD32-92EC3380866B}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2DA9039B-9AEC-4a67-BD32-92EC3380866B}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{2DA9039B-9AEC-4a67-BD32-92EC3380866B}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2DA9039B-9AEC-4a67-BD32-92EC3380866B}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):HttpResponseRedirect(self.success_url)
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations162" onclick="parent.toggleDiv('detailsDIVOperations162','DetailsImageOperations162')" />Details:
-						<div id="detailsDIVOperations162" class="DetailsDiv" >
-					<i>Sequential  </i>
+					<div class="DetailsDivParent"><img src="../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations160" onclick="parent.toggleDiv('detailsDIVOperations160','DetailsImageOperations160')" />Details:
+						<div id="detailsDIVOperations160" class="DetailsDiv" >
+					<i>Sequential  </i><span style= "margin-left: .5cm;">Validate El socio no debe estar en otras tablas como refernecia </span>
+<table>
+	<tr>
+		<td>
+			<span style= "margin-left: 1.5cm;"> <span>
+		</td>
+		<td>
+			&nbsp;
+		</td>
+	</td>
+</table> <span style= "margin-left: .5cm;">Validate Si no se puede eliminar, en caso que no este dependiente, forzar la elimnacion </span>
+<table>
+	<tr>
+		<td>
+			<span style= "margin-left: 1.5cm;"> <span>
+		</td>
+		<td>
+			&nbsp;
+		</td>
+	</td>
+</table> <span style= "margin-left: .5cm;">Functional Registrar en log que usuario elimino al Socio, date, etc...si elimino a la fuerza </span>
+<table>
+	<tr>
+		<td>
+			<span style= "margin-left: 1.5cm;"> <span>
+		</td>
+		<td>
+			&nbsp;
+		</td>
+	</td>
+</table> <span style= "margin-left: .5cm;">Performance Notificación </span>
+<table>
+	<tr>
+		<td>
+			<span style= "margin-left: 1.5cm;"> <span>
+		</td>
+		<td>
+			Mostrar notificación despues de aliminar en un alert
+		</td>
+	</td>
+</table> 
 					<table>
 						<tr>
 							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
@@ -100,117 +160,33 @@ function initPage(src) {
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>public</i><br />
-					<strong>def form_valid</strong>(<br />
-					<a href="#" onclick="parent.toggleData('param{FD21EA22-A2AC-445b-A467-6C2DA5FDFB45}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{FD21EA22-A2AC-445b-A467-6C2DA5FDFB45}" border="0" />self: form</a>, 
+					<strong>def get</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{13612404-3C17-4444-9B28-07043ABDEF8F}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{13612404-3C17-4444-9B28-07043ABDEF8F}" border="0" />self: request</a>, 
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{FD21EA22-A2AC-445b-A467-6C2DA5FDFB45}00" style="display: none;">
+						<tr id="param{13612404-3C17-4444-9B28-07043ABDEF8F}00" style="display: none;">
 							<td width="50"><strong>Default:</strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{FD21EA22-A2AC-445b-A467-6C2DA5FDFB45}01" style="display: none;">
+						<tr id="param{13612404-3C17-4444-9B28-07043ABDEF8F}01" style="display: none;">
 							<td width="50"><strong>Kind:</strong></td>
 							<td>in</td>
 						</tr>
-						<tr id="param{FD21EA22-A2AC-445b-A467-6C2DA5FDFB45}02" style="display: none;">
+						<tr id="param{13612404-3C17-4444-9B28-07043ABDEF8F}02" style="display: none;">
 							<td width="50"><strong>Stereotype: </strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{FD21EA22-A2AC-445b-A467-6C2DA5FDFB45}03" style="display: none;">
+						<tr id="param{13612404-3C17-4444-9B28-07043ABDEF8F}03" style="display: none;">
 							<td width="50"></td>
 							<td></td>
 						</tr>
 					</table>
-):super(SocioUpdateView, self).form_valid(form)
+):self.delete(request, *args, **kwargs)
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations163" onclick="parent.toggleDiv('detailsDIVOperations163','DetailsImageOperations163')" />Details:
-						<div id="detailsDIVOperations163" class="DetailsDiv" >
-					<i>Sequential  </i>
-					<table>
-						<tr>
-							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
-							<td></td>
-						</tr>
-					</table>
-											
-						</div>
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<td width="100%" class="TableRow">
-					<i>public</i><br />
-					<strong>def buscarSocio</strong>(<br />
-					<a href="#" onclick="parent.toggleData('param{E4D7ECB1-E8F5-49f9-891A-8E93286DEBF1}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{E4D7ECB1-E8F5-49f9-891A-8E93286DEBF1}" border="0" />self: request</a>, 
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{E4D7ECB1-E8F5-49f9-891A-8E93286DEBF1}00" style="display: none;">
-							<td width="50"><strong>Default:</strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{E4D7ECB1-E8F5-49f9-891A-8E93286DEBF1}01" style="display: none;">
-							<td width="50"><strong>Kind:</strong></td>
-							<td>in</td>
-						</tr>
-						<tr id="param{E4D7ECB1-E8F5-49f9-891A-8E93286DEBF1}02" style="display: none;">
-							<td width="50"><strong>Stereotype: </strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{E4D7ECB1-E8F5-49f9-891A-8E93286DEBF1}03" style="display: none;">
-							<td width="50"></td>
-							<td></td>
-						</tr>
-					</table>
-):HttpResponse(data, content_type='application/json')
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations164" onclick="parent.toggleDiv('detailsDIVOperations164','DetailsImageOperations164')" />Details:
-						<div id="detailsDIVOperations164" class="DetailsDiv" >
-					<i>Sequential  </i>
-					<table>
-						<tr>
-							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
-							<td></td>
-						</tr>
-					</table>
-											
-						</div>
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<td width="100%" class="TableRow">
-					<i>public</i><br />
-					<strong>def buscarParcela</strong>(<br />
-					<a href="#" onclick="parent.toggleData('param{152FEF5D-B04B-468f-86A8-5B6D19DDA4B7}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{152FEF5D-B04B-468f-86A8-5B6D19DDA4B7}" border="0" />self: request</a>, 
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{152FEF5D-B04B-468f-86A8-5B6D19DDA4B7}00" style="display: none;">
-							<td width="50"><strong>Default:</strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{152FEF5D-B04B-468f-86A8-5B6D19DDA4B7}01" style="display: none;">
-							<td width="50"><strong>Kind:</strong></td>
-							<td>in</td>
-						</tr>
-						<tr id="param{152FEF5D-B04B-468f-86A8-5B6D19DDA4B7}02" style="display: none;">
-							<td width="50"><strong>Stereotype: </strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{152FEF5D-B04B-468f-86A8-5B6D19DDA4B7}03" style="display: none;">
-							<td width="50"></td>
-							<td></td>
-						</tr>
-					</table>
-):HttpResponse(data, content_type='application/json')
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations165" onclick="parent.toggleDiv('detailsDIVOperations165','DetailsImageOperations165')" />Details:
-						<div id="detailsDIVOperations165" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations161" onclick="parent.toggleDiv('detailsDIVOperations161','DetailsImageOperations161')" />Details:
+						<div id="detailsDIVOperations161" class="DetailsDiv" >
 					<i>Sequential  </i>
 					<table>
 						<tr>
@@ -234,7 +210,7 @@ function initPage(src) {
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../../EA1/EA1/EA67.html">SocioForm</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA2/EA77.html">Socio</a></td>
 					<td width="15%" class="TableRow" valign="top">Class</td>
 					<td width="15%" class="TableRow" valign="top">Dependencia</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>

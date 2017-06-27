@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>parcela.py::ParcelaCreateView</title>
+<title>parcela.py::ParcelaUpdatelView</title>
 <link href="../../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {
@@ -16,15 +16,15 @@ function initPage(src) {
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">ParcelaCreateView  : public   clase</span>
+	<span class="ObjectTitle">ParcelaUpdatelView  : public   clase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">30/05/2017 06:40:26</td>
+			<td width="85%" class="ObjectDetailsValue">30/05/2017 06:29:41</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">30/05/2017 06:47:14</td>
+			<td class="ObjectDetailsValue">30/05/2017 06:58:10</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -57,11 +57,11 @@ function initPage(src) {
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{08030FBF-7802-4b2f-B7A7-FF8CC2A3917A}</td>
+			<td class="ObjectDetailsValue">{F6CA4B80-E73C-47bb-A2B7-9050FA3FEF99}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA92.html">parcela.py</a></td>
+			<td class="ObjectDetailsValue"><a href="EA91.html">parcela.py</a></td>
 		</tr>
 	</table>
 	
@@ -78,7 +78,27 @@ function initPage(src) {
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>public</i><br />
-					<strong>def get_context_data</strong>():context
+					<strong>def dispatch</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{CC0155F8-1C38-435b-8FF6-E2491BD61938}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{CC0155F8-1C38-435b-8FF6-E2491BD61938}" border="0" />self: request</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{CC0155F8-1C38-435b-8FF6-E2491BD61938}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{CC0155F8-1C38-435b-8FF6-E2491BD61938}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{CC0155F8-1C38-435b-8FF6-E2491BD61938}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{CC0155F8-1C38-435b-8FF6-E2491BD61938}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):super(ParcelaUpdateView,self).dispatch(request, *args, **kwargs)
 				</td>
 			</tr>
 			<tr>
@@ -100,27 +120,7 @@ function initPage(src) {
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>public</i><br />
-					<strong>def form_valid</strong>(<br />
-					<a href="#" onclick="parent.toggleData('param{22B25DF4-8906-41a6-AF20-F107E1B4665B}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{22B25DF4-8906-41a6-AF20-F107E1B4665B}" border="0" />self: form</a>, 
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{22B25DF4-8906-41a6-AF20-F107E1B4665B}00" style="display: none;">
-							<td width="50"><strong>Default:</strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{22B25DF4-8906-41a6-AF20-F107E1B4665B}01" style="display: none;">
-							<td width="50"><strong>Kind:</strong></td>
-							<td>in</td>
-						</tr>
-						<tr id="param{22B25DF4-8906-41a6-AF20-F107E1B4665B}02" style="display: none;">
-							<td width="50"><strong>Stereotype: </strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{22B25DF4-8906-41a6-AF20-F107E1B4665B}03" style="display: none;">
-							<td width="50"></td>
-							<td></td>
-						</tr>
-					</table>
-):super(ParcelaCreateView, self).form_valid(form)
+					<strong>def get_context_data</strong>():context
 				</td>
 			</tr>
 			<tr>
@@ -142,75 +142,33 @@ function initPage(src) {
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>public</i><br />
-					<strong>def buscarSocio</strong>(<br />
-					<a href="#" onclick="parent.toggleData('param{6D52F953-D382-4c63-B7F4-3BA0CC342D2C}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{6D52F953-D382-4c63-B7F4-3BA0CC342D2C}" border="0" />self: request</a>, 
+					<strong>def form_valid</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{1DB86AA4-9A07-4eca-B31B-6B0C848E1B21}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{1DB86AA4-9A07-4eca-B31B-6B0C848E1B21}" border="0" />self: form</a>, 
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{6D52F953-D382-4c63-B7F4-3BA0CC342D2C}00" style="display: none;">
+						<tr id="param{1DB86AA4-9A07-4eca-B31B-6B0C848E1B21}00" style="display: none;">
 							<td width="50"><strong>Default:</strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{6D52F953-D382-4c63-B7F4-3BA0CC342D2C}01" style="display: none;">
+						<tr id="param{1DB86AA4-9A07-4eca-B31B-6B0C848E1B21}01" style="display: none;">
 							<td width="50"><strong>Kind:</strong></td>
 							<td>in</td>
 						</tr>
-						<tr id="param{6D52F953-D382-4c63-B7F4-3BA0CC342D2C}02" style="display: none;">
+						<tr id="param{1DB86AA4-9A07-4eca-B31B-6B0C848E1B21}02" style="display: none;">
 							<td width="50"><strong>Stereotype: </strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{6D52F953-D382-4c63-B7F4-3BA0CC342D2C}03" style="display: none;">
+						<tr id="param{1DB86AA4-9A07-4eca-B31B-6B0C848E1B21}03" style="display: none;">
 							<td width="50"></td>
 							<td></td>
 						</tr>
 					</table>
-):HttpResponse(data, content_type='application/json')
+):super(ParcelaUpdateView, self).form_valid(form)
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
 					<div class="DetailsDivParent"><img src="../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations150" onclick="parent.toggleDiv('detailsDIVOperations150','DetailsImageOperations150')" />Details:
 						<div id="detailsDIVOperations150" class="DetailsDiv" >
-					<i>Sequential  </i>
-					<table>
-						<tr>
-							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
-							<td></td>
-						</tr>
-					</table>
-											
-						</div>
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<td width="100%" class="TableRow">
-					<i>public</i><br />
-					<strong>def buscarParcela</strong>(<br />
-					<a href="#" onclick="parent.toggleData('param{9F8BB8BA-0BBD-4dd1-BD5D-B15B5548ED41}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{9F8BB8BA-0BBD-4dd1-BD5D-B15B5548ED41}" border="0" />self: request</a>, 
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{9F8BB8BA-0BBD-4dd1-BD5D-B15B5548ED41}00" style="display: none;">
-							<td width="50"><strong>Default:</strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{9F8BB8BA-0BBD-4dd1-BD5D-B15B5548ED41}01" style="display: none;">
-							<td width="50"><strong>Kind:</strong></td>
-							<td>in</td>
-						</tr>
-						<tr id="param{9F8BB8BA-0BBD-4dd1-BD5D-B15B5548ED41}02" style="display: none;">
-							<td width="50"><strong>Stereotype: </strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{9F8BB8BA-0BBD-4dd1-BD5D-B15B5548ED41}03" style="display: none;">
-							<td width="50"></td>
-							<td></td>
-						</tr>
-					</table>
-):HttpResponse(data, content_type='application/json')
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations151" onclick="parent.toggleDiv('detailsDIVOperations151','DetailsImageOperations151')" />Details:
-						<div id="detailsDIVOperations151" class="DetailsDiv" >
 					<i>Sequential  </i>
 					<table>
 						<tr>
@@ -234,7 +192,7 @@ function initPage(src) {
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../../EA1/EA1/EA66.html">ParcelaForm</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA1/EA1/EA67.html">ParcelaForm</a></td>
 					<td width="15%" class="TableRow" valign="top">Class</td>
 					<td width="15%" class="TableRow" valign="top">Dependencia</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
