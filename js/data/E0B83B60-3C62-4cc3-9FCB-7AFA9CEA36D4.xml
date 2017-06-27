@@ -1,8 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.1.3:1", "", "caja_list", "EARoot/EA1/EA1/EA3/EA63.html", "188.png", "23", "0", "", "Custom diagram0","{2C57D7FB-8DEA-4b29-9E76-90687D37D848}");
-tocTab[tocTab.length] = new Array("0.1.1.3:2", "", "modeda_report", "EARoot/EA1/EA1/EA3/EA65.html", "188.png", "30", "0", "", "Custom diagram0","{5CACE6BD-4E20-4661-B16E-D11DB6F0982D}");
-tocTab[tocTab.length] = new Array("0.1.1.3:3", "", "caja_compr", "EARoot/EA1/EA1/EA3/EA67.html", "188.png", "29", "0", "", "Custom diagram0","{10BF7A34-4C36-471f-B969-5FD1FA58150B}");
-tocTab[tocTab.length] = new Array("0.1.1.3:4", "", "comfir_GUARDAR", "EARoot/EA1/EA1/EA3/EA69.html", "188.png", "28", "0", "", "Custom diagram0","{2CCE2B3F-632B-46a7-BE8D-74ADCEF8E2F3}");
-tocTab[tocTab.length] = new Array("0.1.1.3:5", "", "confir_ELIMINAR", "EARoot/EA1/EA1/EA3/EA71.html", "188.png", "25", "0", "", "Custom diagram0","{512432DF-17B1-4574-958B-95CE49124B72}");
-tocTab[tocTab.length] = new Array("0.1.1.3:6", "", "moneda_list", "EARoot/EA1/EA1/EA3/EA73.html", "188.png", "27", "0", "", "Custom diagram0","{35A8AB8F-09E8-457c-AA8D-E80EE7CA8F69}");
-tocTab[tocTab.length] = new Array("0.1.1.3:7", "", "proveedor_form", "EARoot/EA1/EA1/EA3/EA75.html", "188.png", "26", "0", "", "Custom diagram0","{A9B269F6-39B6-4641-93E7-160BED23BAB0}");
-tocTab[tocTab.length] = new Array("0.1.1.3:8", "", "pdf", "EARoot/EA1/EA1/EA3/EA77.html", "188.png", "24", "0", "", "Custom diagram0","{7BD3A118-E2D4-45ae-9269-4A5637DED46B}");

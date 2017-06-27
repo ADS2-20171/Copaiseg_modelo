@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("1.2.5.1.2:1", "", "forms", "EARoot/EA1/EA2/EA5/EA1/EA2/EA232.html", "175.png", "94", "0", "", "Logical diagram0","{65999E02-680F-4ea7-9B15-43D78574F861}");
-tocTab[tocTab.length] = new Array("1.2.5.1.2.1", "1", "pagopersonalF", "EARoot/EA1/EA2/EA5/EA1/EA2/EA234.html", "4.png", "", "", "{95872D51-4F74-4e46-9BA8-4B686BA9C5D4}", "Package");
-tocTab[tocTab.length] = new Array("1.2.5.1.2.2", "1", "personalF", "EARoot/EA1/EA2/EA5/EA1/EA2/EA235.html", "4.png", "", "", "{96D4DBBB-1473-4921-9B7F-B3C7C17DD005}", "Package");
-tocTab[tocTab.length] = new Array("1.2.5.1.2.3", "1", "registroasistenciaF", "EARoot/EA1/EA2/EA5/EA1/EA2/EA236.html", "4.png", "", "", "{432CF51C-EA8A-4d02-B914-7A620C67D1E9}", "Package");

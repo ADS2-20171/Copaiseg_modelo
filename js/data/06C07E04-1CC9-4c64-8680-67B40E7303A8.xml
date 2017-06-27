@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("1.2.3.2.3:1", "", "ViewAlmacen", "EARoot/EA1/EA2/EA3/EA2/EA3/EA126.html", "188.png", "140", "0", "", "Custom diagram0","{67E1110B-CBD8-4f69-BC3C-77C3D2D2CF2D}");
-tocTab[tocTab.length] = new Array("1.2.3.2.3:2", "", "AlmacenCreateView", "EARoot/EA1/EA2/EA3/EA2/EA3/EA128.html", "5.png", "399", "0", "", "Class0","{54E33486-2501-4a41-86BA-6FE5DA1A14B2}");
-tocTab[tocTab.length] = new Array("1.2.3.2.3:3", "", "AlmacenDeleteView", "EARoot/EA1/EA2/EA3/EA2/EA3/EA129.html", "5.png", "400", "0", "", "Class0","{8D4C1EC9-C9F2-44ca-973F-920D0593EEFA}");
-tocTab[tocTab.length] = new Array("1.2.3.2.3:4", "", "AlmacenListView", "EARoot/EA1/EA2/EA3/EA2/EA3/EA130.html", "5.png", "397", "0", "", "Class0","{000F1DC9-A39C-4668-94DF-654C7139427C}");
-tocTab[tocTab.length] = new Array("1.2.3.2.3:5", "", "AlmacenUpdateView", "EARoot/EA1/EA2/EA3/EA2/EA3/EA131.html", "5.png", "398", "0", "", "Class0","{3B7085F9-1506-4e37-97DD-66983857B411}");
